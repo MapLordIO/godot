@@ -262,6 +262,7 @@ String _get_activity_tag(const Ref<EditorExportPlatform> &p_export_platform, con
 			"tools:node=\"mergeOnlyAttributes\" "
 			"android:excludeFromRecents=\"%s\" "
 			"android:screenOrientation=\"%s\" "
+			"android:exported=\"true\" "
 			"android:resizeableActivity=\"%s\">\n",
 			bool_to_string(p_preset->get("package/exclude_from_recents")),
 			orientation,
